@@ -385,6 +385,7 @@ function webpackOptions(
             renderAfterDocumentEvent: "prerender-trigger",
             headless: true,
             devtools: false,
+            maxConcurrentRoutes : 1,
           }),
 
           postProcess: renderedRoute => {
